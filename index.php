@@ -27,19 +27,27 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
-      text-align: center
+      text-align: center;
+    }
+    #is {
+      font-size: 150%
     }
     body {
       position: relative;
       height: 100%;
       overflow: hidden
     }
+    #glorious {font-size: 400%}
+    @media (min-width: 500px) {
+      #glorious {font-size: 500%}
+    }
   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div id="mainbox">
-<?php echo $name; ?> is<br/>
-<span style="font-size: 500%">GLORIOUS</span>
+<span id="is"><?php echo $name; ?> is</span><br/>
+<span id="glorious">GLORIOUS</span>
 </div>
 </body>
 </html>
