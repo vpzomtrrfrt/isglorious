@@ -1,2 +1,2 @@
-# gloriouswill.github.io
-Glorious William Culhane
+# isglorious
+Because everyone wants to be glorious
