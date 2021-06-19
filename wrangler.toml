@@ -1,0 +1,6 @@
+name = "isglorious"
+type = "javascript"
+
+account_id = "afb60e698f6514cd436ea89b18e86d0d"
+zone_id = "b2c41aee38a263172e14574e4ef6e05f"
+route = "*.isglorio.us/*"
